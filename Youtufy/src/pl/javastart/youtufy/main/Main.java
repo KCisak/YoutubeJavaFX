@@ -15,6 +15,7 @@ public class Main extends Application {
         Scene scene = new Scene(parent);
         stage.setScene(scene);
         stage.setTitle("Youtufy v0.1");
+        setUserAgentStylesheet(STYLESHEET_CASPIAN);
         stage.show();
     }
  

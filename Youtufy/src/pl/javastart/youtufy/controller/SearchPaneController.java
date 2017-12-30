@@ -14,7 +14,23 @@ import javafx.scene.input.KeyEvent;
  
 public class SearchPaneController implements Initializable {
  
-    @FXML
+    public TextField getSearchTextField() {
+		return searchTextField;
+	}
+
+	public void setSearchTextField(TextField searchTextField) {
+		this.searchTextField = searchTextField;
+	}
+
+	public ListView<String> getHistoryListView() {
+		return historyListView;
+	}
+
+	public void setHistoryListView(ListView<String> historyListView) {
+		this.historyListView = historyListView;
+	}
+
+	@FXML
     private TextField searchTextField;
  
     @FXML

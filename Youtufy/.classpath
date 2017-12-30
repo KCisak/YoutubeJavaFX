@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
+	<classpathentry excluding="pl/javastart/youtufy/res/" kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/bilbioteki/httpcomponents-client-4.5.4/lib/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="D:/bilbioteki/httpcomponents-client-4.5.4/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/bilbioteki/httpcomponents-client-4.5.4/lib/fluent-hc-4.5.4.jar"/>
+	<classpathentry kind="lib" path="D:/bilbioteki/httpcomponents-client-4.5.4/lib/httpclient-4.5.4.jar"/>
+	<classpathentry kind="lib" path="D:/bilbioteki/httpcomponents-client-4.5.4/lib/httpclient-cache-4.5.4.jar"/>
+	<classpathentry kind="lib" path="D:/bilbioteki/httpcomponents-client-4.5.4/lib/httpclient-win-4.5.4.jar"/>
+	<classpathentry kind="lib" path="D:/bilbioteki/httpcomponents-client-4.5.4/lib/httpcore-4.4.7.jar"/>
+	<classpathentry kind="lib" path="D:/bilbioteki/httpcomponents-client-4.5.4/lib/httpmime-4.5.4.jar"/>
+	<classpathentry kind="lib" path="D:/bilbioteki/httpcomponents-client-4.5.4/lib/jna-4.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/bilbioteki/httpcomponents-client-4.5.4/lib/jna-platform-4.4.0.jar"/>
+	<classpathentry kind="lib" path="D:/bilbioteki/httpcomponents-core-4.4.8/lib/commons-cli-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/bilbioteki/httpcomponents-core-4.4.8/lib/httpcore-4.4.8.jar"/>
+	<classpathentry kind="lib" path="D:/bilbioteki/httpcomponents-core-4.4.8/lib/httpcore-ab-4.4.8.jar"/>
+	<classpathentry kind="lib" path="D:/bilbioteki/httpcomponents-core-4.4.8/lib/httpcore-nio-4.4.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Krzysztof/Desktop/jsoup-1.11.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
